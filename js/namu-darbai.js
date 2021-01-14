@@ -37,9 +37,14 @@ console.log(zodiakoZenklai);
 const sumaSkaiciu = (aukstis + ilgis + plotis);
 console.log(sumaSkaiciu);
 
+
 //2
 const sujungtiZodziai = (vardas + ' ' + miestas + ' ' + statusas);
 console.log(sujungtiZodziai);
+
+const sujungtiZodziai2 = `${vardas} ${miestas} ${statusas}`;
+console.log(sujungtiZodziai2);
+
 
 //3
 const pazymiuVerte = (pazymiai[0] - pazymiai[1] + pazymiai[2] - pazymiai[3] + pazymiai[4]);
