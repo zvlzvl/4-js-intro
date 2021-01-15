@@ -1,4 +1,4 @@
-const day = 1;
+const day = 4;
 
 switch (day) {
     case 1:
@@ -40,7 +40,7 @@ switch (day2) {
 
 console.log('-------------------');
 
-const day3 = 6;
+const day3 = 4;
 
 switch (day3) {
     case 1:
@@ -65,7 +65,7 @@ switch (day3) {
 
 console.log('-------------------');
 
-const stotele = 'rudens2';
+const stotele = 'geniu';
 
 switch (stotele) {
     case 'ziedas1':

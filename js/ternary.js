@@ -1,5 +1,5 @@
 
-const a = 4;
+const a = 6;
 const b = 4;
 
 const arLygu = a === b ? true : false;
@@ -7,7 +7,7 @@ const arLygu = a === b ? true : false;
 console.log(arLygu);
 
 
-const aukstai = 9;
+const aukstai = 8;
 const kadaDaugiaaukstis = 5;
 
 const arDaugiaaukstis = aukstai >= kadaDaugiaaukstis ? 'taip' : 'ne';
@@ -15,7 +15,7 @@ console.log(arDaugiaaukstis);
 
 
 
-const varyklisIjungtas = false;
+const varyklisIjungtas = true;
 
 const arJudam = varyklisIjungtas === true ? 'vaziuojam' : 'stovim';
 console.log(arJudam);

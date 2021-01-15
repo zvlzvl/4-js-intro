@@ -62,3 +62,192 @@ console.log(varduVerte);
 const zodiakoVerte = (zodiakoZenklai[4] + ', ' + zodiakoZenklai[3] + ', ' + zodiakoZenklai[2] + ', ' + zodiakoZenklai[1] + ', ' + zodiakoZenklai[0]);
 console.log(zodiakoVerte);
 
+// Kintamuju palyginimas
+//1 tarpusavyje palyginti skaiciaus tipo kintamuosius
+console.log('-----------------if--------------');
+
+if (aukstis > plotis) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (aukstis < plotis) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (aukstis === plotis) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (aukstis !== plotis) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+if (aukstis >= plotis) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (aukstis <= plotis) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+console.log('-------ternarry------------');
+
+
+const arDidesnis = aukstis > plotis? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(arDidesnis);
+
+const arMazesnis = aukstis < plotis? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(arMazesnis);
+
+const arLygu = aukstis === plotis? 'Pomidoras' : 'Bndyk dar karta.'
+console.log(arLygu);
+
+const arNeLygu = aukstis !== plotis? 'Pomidoras' : 'Bndyk dar karta.'
+console.log(arNeLygu);
+
+const arDidesnisLygu = aukstis >= plotis? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(arDidesnisLygu);
+
+const arMazesnisLygu = aukstis <= plotis? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(arMazesnisLygu);
+
+//2 isvesti teksto kintamuju ilgius
+
+console.log(vardas.length);
+console.log(miestas.length);
+console.log(statusas.length);
+
+//3 tarpusavyje palyginti teksto tipo kintamuju ilgius
+
+if (miestas.length > statusas.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (miestas.length < statusas.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (miestas.length === statusas.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (miestas.length !== statusas.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+if (miestas.length >= statusas.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (miestas.length <= statusas.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+console.log('-------ternarry------------');
+
+
+const tekstDidesnis = vardas.length > statusas.length? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(tekstDidesnis);
+
+const tekstMazesnis = vardas.length < statusas.length? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(tekstMazesnis);
+
+const tekstLygu = vardas.length === statusas.length? 'Pomidoras' : 'Bndyk dar karta.'
+console.log(tekstLygu);
+
+const tekstNeLygu = vardas.length !== statusas.length? 'Pomidoras' : 'Bndyk dar karta.'
+console.log(tekstNeLygu);
+
+const tekstDidesnisLygu = vardas.length >= statusas.length? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(tekstDidesnisLygu);
+
+const tekstMazesnisLygu = vardas.length <= statusas.length? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(tekstMazesnisLygu);
+
+//4 isvesti sarasu tipo kintamuju ilgius
+
+console.log(pazymiai.length);
+console.log(matmenys.length);
+console.log(laipsniai.length);
+
+console.log(didziausiMiestai.length);
+console.log(seimosVardai.length);
+console.log(zodiakoZenklai.length);
+
+//5 palyginti sarasu tipo kintamuju ilgius
+
+
+if (pazymiai.length > matmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (pazymiai.length < matmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (pazymiai.length === matmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (pazymiai.length !== matmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+if (pazymiai.length >= matmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+
+if (pazymiai.length <= matmenys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+}
+console.log('-------ternarry------------');
+
+
+const sarDidesnis = pazymiai.length > matmenys.length? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(sarDidesnis);
+
+const sarMazesnis =  pazymiai.length < matmenys.length? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(sarMazesnis);
+
+const sarLygu =  pazymiai.length === matmenys.length? 'Pomidoras' : 'Bndyk dar karta.'
+console.log(sarLygu);
+
+const sarNeLygu =  pazymiai.length !== matmenys.length? 'Pomidoras' : 'Bndyk dar karta.'
+console.log(sarNeLygu);
+
+const sarDidesnisLygu =  pazymiai.length >= matmenys.length? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(sarDidesnisLygu);
+
+const sarMazesnisLygu =  pazymiai.length <= matmenys.length? 'Pomidoras' : 'Bandyk dar karta.';
+console.log(sarMazesnisLygu);
