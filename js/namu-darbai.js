@@ -251,3 +251,4 @@ console.log(sarDidesnisLygu);
 
 const sarMazesnisLygu =  pazymiai.length <= matmenys.length? 'Pomidoras' : 'Bandyk dar karta.';
 console.log(sarMazesnisLygu);
+
