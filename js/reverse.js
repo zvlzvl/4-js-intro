@@ -26,16 +26,17 @@ for (let i = 0; i < size; i++) {
 //     console.log(i, letter, reverseText);
 // }
 
-// for (let i = size - 1; i >= 0; i--) {
-//     const letter = text[i];
-//     reverseText += letter;
-//     console.log(i, letter, reverseText);
-// }
-
-// for (let i = size; i > 0; i--) {
-//     const letter = text[i - 1];
-//     reverseText += letter;
-//     console.log(i, letter, reverseText);
-// }
-
+ /* for (let i = size - 1; i >= 0; i--) {
+     const letter = text[i];
+     reverseText += letter;
+     console.log(i, letter, reverseText);
+ }
+ */
+/*
+     for (let i = size; i > 0; i--) {
+     const letter = text[i - 1];
+     reverseText += letter;
+     console.log(i, letter, reverseText);
+ }
+*/
 console.log('Finale gavau:', reverseText);
