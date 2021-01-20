@@ -13,3 +13,20 @@ function positiveSum(arr) {
     return suma
 }
     console.log(positiveSum([2, -5, 8, 9]));
+
+function countSheeps(arrayOfSheep) {
+    let sumos = 0;
+    for (let i = 0; i < arrayOfSheep.length; i++) {
+        if (arrayOfSheep[i] === true) {
+        sumos = sumos + 1;
+      }
+    }
+    return sumos
+}
+
+        console.log(countSheeps( [true,  true,  true,  false,
+            true,  true,  true,  true ,
+            true,  false, true,  false,
+            true,  false, false, true ,
+            true,  true,  true,  true ,
+            false, false, true,  true ]));
